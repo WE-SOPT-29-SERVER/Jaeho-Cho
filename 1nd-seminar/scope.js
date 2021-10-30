@@ -25,4 +25,4 @@ if (true) {
   }
   
   colorFunction();
-  //console.log(color);
+
