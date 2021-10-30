@@ -1,3 +1,4 @@
+
 let arr1 = [];
 console.log(arr1);
 console.log(typeof arr1);
@@ -6,7 +7,7 @@ let arr2 = new Array(1, 2, 3, 4, 5);
 console.log(arr2);
 console.log(typeof arr2);
 
-let arr3 = ["조재호", 1, 2, 3, null, { name: "JAEHO", age: 25 }];
+
 console.log(arr3);
 console.log(typeof arr3);
 
@@ -40,11 +41,6 @@ console.log("arr.includes(1000):", arr.includes(1000));
 console.log("arr.indexOf(4):", arr.indexOf(4));
 console.log("arr.indexOf(100):", arr.indexOf(100));
 
-// 2-6 concat  배열을 합쳐줌,
-let arr5 = [1, 2, 3];
-let arr6 = [4, 5, 6];
-let concatArr = arr5.concat(arr6);
-console.log("arr1.concat(arr2):", concatArr);
 
 // 2-7 join
 let location = ["서울", "대전", "대구", "부산"];
@@ -82,8 +78,7 @@ let countries2 = ["Österreich", "Andorra", "Vietnam", "Korea", "China"];
 let countriesLengths = countries2.map(item => item.length);
 console.log("countriesLengths: ", countriesLengths);
 
-// 2-12 reduce map은 배열을 반환할때 사용했지만 reduce는 값 하나를 반환할때 주로 사용 대표적인 예시로 1 ~ n 까지 더하기
-let number2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 let sum = number2.reduce((previousValue, currentValue) => {
   console.log(`previousValue: ${previousValue}, currentValue: ${currentValue}`);
   return previousValue + currentValue;
@@ -97,11 +92,7 @@ console.log("sum = ", sum);
 
 let serverPart = [
   "강한희",
-  "조재호",
-  "구건모",
-  "주어랑",
-  "변주현",
-  "조찬우",
+
   
 ];
 let serverIndexStr = '서버파트 여러분 번호 한번 세겠습니다. "';
@@ -119,4 +110,4 @@ console.log(serverPartMemberNameStr);
 
 serverPart.forEach(item => {
   console.log(item);
-});
+

@@ -8,11 +8,3 @@ const myName = "조재호";
 
 const strr = "안녕하세요" + myName + "입니다";
 
-const backtickStr = `안녕하세요 ${myName}입니다`;
-
-
-
-console.log(strr+ "\n");
-console.log(backtickStr);
-
-

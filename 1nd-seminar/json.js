@@ -1,4 +1,4 @@
-// 1. JSON 객체 실습
+
 
 const sopt = {
     name: "WE SOPT",
